@@ -1,2 +1,2 @@
 # loxable
-the loxable programming language
+the loxable programming language.
