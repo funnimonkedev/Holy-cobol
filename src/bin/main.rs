@@ -1,13 +1,12 @@
-use std::io;
-use loxable::Lexer;
-use std::{fs, io::Read};
+use std::io; // needed for user input
+use loxable::Lexer; // import lexer struct from lib.rs (along with all implementations)
+use std::{fs, io::Read}; // needed for file parsing
 
 fn main() {
-    
     println!("Would you like to provide a terminal based input or file based input? type `1` for terminal, or `2` for file.");
     let mut user_input = String::new();
     io::stdin().read_line(&mut user_input).expect("failed to read user input.");
-    let user_input = user_input.trim();
+    let user_input = user_input.trim(); // trim to remove \n
     if user_input == "2" {
         println!("\nWelcome to loxable cargo, please input filename.");    
         let mut filename = String::new();
