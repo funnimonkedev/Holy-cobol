@@ -1,5 +1,5 @@
 # Holy-cobol
-the Holy-cobol programming language.
+the (unfinished) Holy-cobol programming language.
 
 > "Go to the lib.rs file for the juicy dip!"
   
