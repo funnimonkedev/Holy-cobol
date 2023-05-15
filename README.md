@@ -1,5 +1,5 @@
-# loxable
-the loxable programming language.
+# Holy-cobol
+the Holy-cobol programming language.
 
 > "Go to the lib.rs file for the juicy dip!"
 > 
